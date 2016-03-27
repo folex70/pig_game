@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{48BFB077-F75A-C1F6-0737-A217B8A1F4F7}") = "pig_game", "Assembly-CSharp.csproj", "{3166BF39-DFBC-1789-3A39-DC1F9B297043}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3166BF39-DFBC-1789-3A39-DC1F9B297043}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3166BF39-DFBC-1789-3A39-DC1F9B297043}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3166BF39-DFBC-1789-3A39-DC1F9B297043}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3166BF39-DFBC-1789-3A39-DC1F9B297043}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal

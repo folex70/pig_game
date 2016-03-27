@@ -1,0 +1,172 @@
+fileFormatVersion: 2
+guid: 0012f2df4748ebc40bd5c20da6975114
+timeCreated: 1459050430
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: pig1_animado_0
+    21300002: pig1_animado_1
+    21300004: pig1_animado_2
+    21300006: pig1_animado_3
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 32
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: pig1_animado_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10
+        width: 510
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 131, y: 98.62}
+        - {x: 117, y: 102.62}
+        - {x: 10, y: 102.62}
+        - {x: -62, y: 87.62}
+        - {x: -82, y: 77.62}
+        - {x: -131, y: 36.620003}
+        - {x: -131, y: 10.620003}
+        - {x: -124, y: -8.379997}
+        - {x: -119, y: -77.38}
+        - {x: -80, y: -102.38}
+        - {x: -57, y: -102.38}
+        - {x: -47, y: -89.38}
+        - {x: 10, y: -102.38}
+        - {x: 105, y: -102.38}
+        - {x: 119, y: -96.38}
+        - {x: 131, y: -43.379997}
+    - name: pig1_animado_1
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 29
+        width: 510
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 54, y: -78.652}
+        - {x: 56, y: -77.652}
+        - {x: 56, y: -91.652}
+        - {x: 58, y: -93.652}
+        - {x: 87, y: -100.652}
+        - {x: 131, y: -50.652}
+        - {x: 131, y: 100.348}
+        - {x: 114, y: 104.348}
+        - {x: 10, y: 104.348}
+        - {x: -64, y: 94.348}
+        - {x: -131, y: 40.348}
+        - {x: -131, y: -11.652}
+        - {x: -112, y: -100.652}
+        - {x: -93, y: -102.652}
+        - {x: 55, y: -102.652}
+        - {x: 55, y: -99.652}
+        - {x: 56, y: -96.652}
+        - {x: 56, y: -80.652}
+    - name: pig1_animado_2
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 10
+        width: 510
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 131, y: 98.62}
+        - {x: 117, y: 102.62}
+        - {x: 10, y: 102.62}
+        - {x: -62, y: 87.62}
+        - {x: -82, y: 77.62}
+        - {x: -131, y: 36.620003}
+        - {x: -131, y: 10.620003}
+        - {x: -124, y: -8.379997}
+        - {x: -119, y: -77.38}
+        - {x: -80, y: -102.38}
+        - {x: -57, y: -102.38}
+        - {x: -47, y: -89.38}
+        - {x: 10, y: -102.38}
+        - {x: 105, y: -102.38}
+        - {x: 119, y: -96.38}
+        - {x: 131, y: -43.379997}
+    - name: pig1_animado_3
+      rect:
+        serializedVersion: 2
+        x: 3010
+        y: 29
+        width: 510
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 131.12012, y: -79.652}
+        - {x: 131.12012, y: 85.348}
+        - {x: 117.12012, y: 104.348}
+        - {x: 20.120117, y: 104.348}
+        - {x: -61.879883, y: 90.348}
+        - {x: -130.87988, y: 41.348}
+        - {x: -130.87988, y: 5.3479996}
+        - {x: -117.87988, y: -28.652}
+        - {x: -124.87988, y: -82.652}
+        - {x: -113.87988, y: -102.652}
+        - {x: -71.87988, y: -102.652}
+        - {x: -44.879883, y: -90.652}
+        - {x: -0.8798828, y: -102.652}
+        - {x: 32.120117, y: -102.652}
+        - {x: 57.120117, y: -87.652}
+        - {x: 115.12012, y: -102.652}
+        - {x: 127.12012, y: -102.652}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

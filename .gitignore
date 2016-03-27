@@ -1,0 +1,6 @@
+*.log
+*.info
+Library/
+Temp/
+pig_game/Library/
+pig_game/Temp/
