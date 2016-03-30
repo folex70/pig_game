@@ -1,0 +1,234 @@
+fileFormatVersion: 2
+guid: bedf25786bf0c454fadaa090740cea2b
+timeCreated: 1459276525
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: farm_pixel_bg_0
+    21300002: farm_pixel_bg_1
+    21300004: farm_pixel_bg_2
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 32
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: farm_pixel_bg_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 710
+        width: 1000
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 482, y: 90}
+        - {x: 480, y: 92}
+        - {x: 462, y: 100}
+        - {x: 460, y: 102}
+        - {x: 432, y: 102}
+        - {x: 432, y: 110}
+        - {x: 430, y: 112}
+        - {x: 392, y: 112}
+        - {x: 392, y: 120}
+        - {x: 390, y: 122}
+        - {x: 352, y: 122}
+        - {x: 352, y: 130}
+        - {x: 350, y: 132}
+        - {x: 252, y: 132}
+        - {x: 252, y: 140}
+        - {x: 158, y: 140}
+        - {x: 158, y: 132}
+        - {x: 120, y: 132}
+        - {x: 118, y: 130}
+        - {x: 118, y: 122}
+        - {x: 80, y: 122}
+        - {x: 78, y: 120}
+        - {x: 78, y: 112}
+        - {x: 50, y: 112}
+        - {x: 48, y: 110}
+        - {x: 48, y: 102}
+        - {x: 30, y: 102}
+        - {x: 28, y: 100}
+        - {x: 28, y: 92}
+        - {x: 10, y: 92}
+        - {x: 8, y: 90}
+        - {x: 8, y: 82}
+        - {x: -10, y: 82}
+        - {x: -12, y: 80}
+        - {x: -12, y: 72}
+        - {x: -30, y: 72}
+        - {x: -32, y: 70}
+        - {x: -32, y: 62}
+        - {x: -50, y: 62}
+        - {x: -52, y: 60}
+        - {x: -52, y: 52}
+        - {x: -70, y: 52}
+        - {x: -72, y: 50}
+        - {x: -72, y: 42}
+        - {x: -88, y: 50}
+        - {x: -90, y: 52}
+        - {x: -108, y: 60}
+        - {x: -110, y: 62}
+        - {x: -128, y: 70}
+        - {x: -130, y: 72}
+        - {x: -148, y: 80}
+        - {x: -150, y: 82}
+        - {x: -168, y: 90}
+        - {x: -170, y: 92}
+        - {x: -188, y: 92}
+        - {x: -188, y: 100}
+        - {x: -190, y: 102}
+        - {x: -218, y: 102}
+        - {x: -218, y: 110}
+        - {x: -220, y: 112}
+        - {x: -268, y: 112}
+        - {x: -268, y: 120}
+        - {x: -270, y: 122}
+        - {x: -320, y: 122}
+        - {x: -322, y: 120}
+        - {x: -322, y: 112}
+        - {x: -360, y: 112}
+        - {x: -362, y: 110}
+        - {x: -362, y: 102}
+        - {x: -390, y: 102}
+        - {x: -392, y: 100}
+        - {x: -392, y: 92}
+        - {x: -410, y: 92}
+        - {x: -412, y: 90}
+        - {x: -412, y: 82}
+        - {x: -420, y: 82}
+        - {x: -422, y: 80}
+        - {x: -422, y: 72}
+        - {x: -430, y: 72}
+        - {x: -432, y: 70}
+        - {x: -432, y: 62}
+        - {x: -450, y: 62}
+        - {x: -452, y: 60}
+        - {x: -452, y: 52}
+        - {x: -460, y: 52}
+        - {x: -462, y: 50}
+        - {x: -462, y: 42}
+        - {x: -470, y: 42}
+        - {x: -472, y: 40}
+        - {x: -472, y: 32}
+        - {x: -490, y: 32}
+        - {x: -492, y: 30}
+        - {x: -492, y: 22}
+        - {x: -500, y: 22}
+        - {x: -500, y: -140}
+        - {x: 500, y: -140}
+        - {x: 500, y: 82}
+        - {x: 482, y: 82}
+    - name: farm_pixel_bg_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 350
+        width: 1000
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -500, y: 80}
+        - {x: -500, y: -80}
+        - {x: 500, y: -80}
+        - {x: 500, y: 80}
+    - name: farm_pixel_bg_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1000
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 488, y: 40}
+        - {x: 479, y: 34}
+        - {x: 471, y: 45}
+        - {x: 454, y: 50}
+        - {x: 418, y: 50}
+        - {x: 405, y: 48}
+        - {x: 395, y: 50}
+        - {x: 350, y: 50}
+        - {x: 336, y: 48}
+        - {x: 326, y: 50}
+        - {x: 179, y: 50}
+        - {x: 172, y: 46}
+        - {x: 148, y: 50}
+        - {x: 71, y: 50}
+        - {x: 58, y: 47}
+        - {x: 47, y: 50}
+        - {x: -18, y: 50}
+        - {x: -31, y: 49}
+        - {x: -39, y: 50}
+        - {x: -83, y: 50}
+        - {x: -91, y: 48}
+        - {x: -101, y: 50}
+        - {x: -239, y: 50}
+        - {x: -264, y: 49}
+        - {x: -274, y: 50}
+        - {x: -321, y: 50}
+        - {x: -333, y: 49}
+        - {x: -343, y: 50}
+        - {x: -388, y: 50}
+        - {x: -403, y: 48}
+        - {x: -414, y: 50}
+        - {x: -436, y: 50}
+        - {x: -451, y: 37}
+        - {x: -471, y: 50}
+        - {x: -500, y: 50}
+        - {x: -500, y: -50}
+        - {x: 500, y: -50}
+        - {x: 500, y: 44}
+        - {x: 490, y: 42}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,247 @@
+fileFormatVersion: 2
+guid: 20f7712c7fbf94b4fb025e6f701db32b
+timeCreated: 1459300654
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: coin_silver_0
+    21300002: coin_silver_1
+    21300004: coin_silver_2
+    21300006: coin_silver_3
+    21300008: coin_silver_4
+    21300010: coin_silver_5
+    21300012: coin_silver_6
+    21300014: coin_silver_7
+    21300016: coin_silver_8
+    21300018: coin_silver_9
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: coin_silver_0
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 79
+        width: 163
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -52.140003, y: 53.059998}
+        - {x: -52.140003, y: -51.940002}
+        - {x: 50.859997, y: -51.940002}
+        - {x: 52.859997, y: -45.940002}
+        - {x: 52.859997, y: 44.059998}
+        - {x: 43.859997, y: 53.059998}
+    - name: coin_silver_1
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 79
+        width: 164
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40.48001, y: 53.059998}
+        - {x: -48.48001, y: 48.059998}
+        - {x: -52.48001, y: 29.059998}
+        - {x: -52.48001, y: -35.940002}
+        - {x: -40.48001, y: -51.940002}
+        - {x: 39.51999, y: -51.940002}
+        - {x: 53.51999, y: -45.940002}
+        - {x: 53.51999, y: 53.059998}
+    - name: coin_silver_2
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 79
+        width: 142
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -45.640015, y: 53.059998}
+        - {x: -45.640015, y: -51.940002}
+        - {x: 31.359985, y: -51.940002}
+        - {x: 46.359985, y: -38.940002}
+        - {x: 46.359985, y: 36.059998}
+        - {x: 29.359985, y: 53.059998}
+    - name: coin_silver_3
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 79
+        width: 122
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35.940002, y: 53.059998}
+        - {x: -38.940002, y: 37.059998}
+        - {x: -38.940002, y: -34.940002}
+        - {x: -21.940002, y: -51.940002}
+        - {x: 24.059998, y: -51.940002}
+        - {x: 40.059998, y: -35.940002}
+        - {x: 40.059998, y: 36.059998}
+        - {x: 32.059998, y: 53.059998}
+    - name: coin_silver_4
+      rect:
+        serializedVersion: 2
+        x: 1418
+        y: 79
+        width: 83
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25.480042, y: 53.059998}
+        - {x: -26.480042, y: 46.059998}
+        - {x: -26.480042, y: -40.940002}
+        - {x: -23.480042, y: -44.940002}
+        - {x: -14.4800415, y: -51.940002}
+        - {x: 21.519958, y: -51.940002}
+        - {x: 27.519958, y: -33.940002}
+        - {x: 27.519958, y: 43.059998}
+        - {x: 11.5199585, y: 53.059998}
+    - name: coin_silver_5
+      rect:
+        serializedVersion: 2
+        x: 1768
+        y: 79
+        width: 23
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: coin_silver_6
+      rect:
+        serializedVersion: 2
+        x: 2049
+        y: 79
+        width: 83
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9.359985, y: 53.059998}
+        - {x: -26.640015, y: 53.059998}
+        - {x: -26.640015, y: -51.940002}
+        - {x: 22.359985, y: -51.940002}
+        - {x: 27.359985, y: -36.940002}
+        - {x: 27.359985, y: 43.059998}
+        - {x: 23.359985, y: 46.059998}
+    - name: coin_silver_7
+      rect:
+        serializedVersion: 2
+        x: 2359
+        y: 79
+        width: 123
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.23999, y: 53.059998}
+        - {x: -39.23999, y: 39.059998}
+        - {x: -39.23999, y: -39.940002}
+        - {x: -36.23999, y: -51.940002}
+        - {x: 35.76001, y: -51.940002}
+        - {x: 40.76001, y: -33.940002}
+        - {x: 40.76001, y: 40.059998}
+        - {x: 26.76001, y: 53.059998}
+    - name: coin_silver_8
+      rect:
+        serializedVersion: 2
+        x: 2659
+        y: 79
+        width: 142
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -38.23999, y: 53.059998}
+        - {x: -45.23999, y: 46.059998}
+        - {x: -45.23999, y: -33.940002}
+        - {x: -39.23999, y: -51.940002}
+        - {x: 29.76001, y: -51.940002}
+        - {x: 46.76001, y: -33.940002}
+        - {x: 46.76001, y: 45.059998}
+        - {x: 27.76001, y: 53.059998}
+    - name: coin_silver_9
+      rect:
+        serializedVersion: 2
+        x: 2979
+        y: 79
+        width: 162
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 30.059937, y: 53.059998}
+        - {x: -36.940063, y: 53.059998}
+        - {x: -51.940063, y: 31.059998}
+        - {x: -51.940063, y: -36.940002}
+        - {x: -29.940063, y: -51.940002}
+        - {x: 30.059937, y: -51.940002}
+        - {x: 39.059937, y: -50.940002}
+        - {x: 53.059937, y: -25.940002}
+        - {x: 53.059937, y: 27.059998}
+        - {x: 52.059937, y: 36.059998}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
