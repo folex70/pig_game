@@ -45,8 +45,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Coin.cs" />
      <Compile Include="Assets\Scripts\Nuvem.cs" />
+     <Compile Include="Assets\Scripts\ObjectPool.cs" />
+     <Compile Include="Assets\Scripts\ObjectPoolGold.cs" />
+     <Compile Include="Assets\Scripts\ObjectPoolSilver.cs" />
      <Compile Include="Assets\Scripts\Player.cs" />
+     <Compile Include="Assets\Scripts\Raio.cs" />
+     <Compile Include="Assets\Scripts\_GM.cs" />
      <None Include="Assets\Fonts\OFL.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>

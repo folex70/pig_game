@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 using System.Collections;
 
 public class Player : MonoBehaviour {
@@ -8,18 +9,21 @@ public class Player : MonoBehaviour {
 	
 	public float speed;
 	public bool flipX;
-	
+	public int localGold;
+	AudioSource audio;
+	public AudioClip  pickCoin;
 
 	// Use this for initialization
 	void Start () {
 		//pega o componente do inspector
+		localGold =0;
 		rb = GetComponent<Rigidbody2D>();
 		sprite = GetComponent<SpriteRenderer>();
+		audio = GetComponent<AudioSource>();
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		
 		
 		if(Input.GetButton("Horizontal")){
 			if(Input.GetAxis("Horizontal") > 0){
@@ -36,19 +40,28 @@ public class Player : MonoBehaviour {
 	}
 	
 	void OnCollisionEnter2D(Collision2D col){
-		if(col.gameObject.tag == "raio"){
-			//gameover
-			Debug.Log("colidiu com um raio e morreu");
-		}
-		
+
 		if(col.gameObject.tag == "silver"){
-			//+1 pontos
-			Debug.Log("colidiu com uma moeda de prata");
+			//+1 pontos 
+			localGold += 1;
+			audio.PlayOneShot(pickCoin, 0.7F);
 		}
 				
 		if(col.gameObject.tag == "gold"){
 			//+3 pontos
-			Debug.Log("colidiu com uma moeda de ouro");
+			localGold += 3;
+			audio.PlayOneShot(pickCoin, 0.7F);
 		}
+	}
+	
+	 void OnTriggerEnter2D(Collider2D col){
+        if(col.gameObject.tag == "raio" || col.gameObject.tag == "espinho"){
+			gameOver();
+		}
+    }
+	
+	void gameOver(){
+		//Application.LoadLevel(Application.loadedLevel);
+		 SceneManager.LoadScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex);  
 	}
 }
