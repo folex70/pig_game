@@ -67,7 +67,8 @@ public class Player : MonoBehaviour {
 	
 	void gameOver(){
 		//Application.LoadLevel(Application.loadedLevel);
-		 SceneManager.LoadScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex);  
+		//SceneManager.LoadScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex);  
+		SceneManager.LoadScene("gameOver");  
 	}
 	
 	void checkLevel(){

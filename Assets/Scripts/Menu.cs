@@ -20,5 +20,14 @@ public class Menu : MonoBehaviour {
 	
 	public void menuExit(){
 		//sair
+		Application.Quit();
+	}
+	
+	public void menuCredits(){
+		SceneManager.LoadScene("credits");  
+	}
+	
+	public void menuTitle(){
+		SceneManager.LoadScene("menu");  
 	}
 }
