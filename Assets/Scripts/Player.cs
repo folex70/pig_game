@@ -39,9 +39,9 @@ public class Player : MonoBehaviour {
 				
 		sprite.flipX = flipX;	
 		checkLevel();
-		//Debug.Log("Gold "+localGold);
+		Debug.Log("Gold "+localGold);
 		Debug.Log("Level "+localLevel);
-				
+		_GM.instance.SetCurrentGold(localGold);
 	}
 	
 	void OnCollisionEnter2D(Collision2D col){
@@ -80,7 +80,7 @@ public class Player : MonoBehaviour {
         {
             localLevel++;
         }
-        else if ((localLevel >= 10) && localGold > (11 * localLevel))
+        else if ((localLevel >= 10) && localGold > (20 * localLevel))
         {
             localLevel++;
         }
