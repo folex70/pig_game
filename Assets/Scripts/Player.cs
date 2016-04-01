@@ -10,6 +10,7 @@ public class Player : MonoBehaviour {
 	public float speed;
 	public bool flipX;
 	public int localGold;
+	public int localLevel;
 	AudioSource audio;
 	public AudioClip  pickCoin;
 
@@ -17,6 +18,7 @@ public class Player : MonoBehaviour {
 	void Start () {
 		//pega o componente do inspector
 		localGold =0;
+		localLevel =0;
 		rb = GetComponent<Rigidbody2D>();
 		sprite = GetComponent<SpriteRenderer>();
 		audio = GetComponent<AudioSource>();
@@ -35,7 +37,10 @@ public class Player : MonoBehaviour {
 			}
 		}
 				
-		sprite.flipX = flipX;			
+		sprite.flipX = flipX;	
+		checkLevel();
+		//Debug.Log("Gold "+localGold);
+		Debug.Log("Level "+localLevel);
 				
 	}
 	
@@ -63,5 +68,22 @@ public class Player : MonoBehaviour {
 	void gameOver(){
 		//Application.LoadLevel(Application.loadedLevel);
 		 SceneManager.LoadScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex);  
+	}
+	
+	void checkLevel(){
+		
+        if(localLevel == 0 && localGold > 10)
+        {
+            localLevel = 1;
+        }
+        else if ((localLevel < 10) && localGold > (10 * localLevel))
+        {
+            localLevel++;
+        }
+        else if ((localLevel >= 10) && localGold > (11 * localLevel))
+        {
+            localLevel++;
+        }
+        _GM.instance.SetLevel(localLevel);
 	}
 }

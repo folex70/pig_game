@@ -1,0 +1,169 @@
+fileFormatVersion: 2
+guid: edbdb37494bb9f64bb87cf8776a8fcdf
+timeCreated: 1459463861
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: sky_pixel clone_0
+    21300002: sky_pixel clone_1
+    21300004: sky_pixel clone_2
+    21300006: sky_pixel clone_3
+    21300008: sky_pixel clone_4
+    21300010: sky_pixel clone_5
+    21300012: sky_pixel clone_6
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: sky_pixel clone_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 998
+        height: 1000
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -146, y: 146.5}
+        - {x: -146, y: -146.5}
+        - {x: 146, y: -146.5}
+        - {x: 146, y: 146.5}
+    - name: sky_pixel clone_1
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 5
+        width: 996
+        height: 995
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -145.55087, y: 146.46286}
+        - {x: -145.55087, y: -145.53714}
+        - {x: 146.44913, y: -145.53714}
+        - {x: 146.44913, y: 146.46286}
+    - name: sky_pixel clone_2
+      rect:
+        serializedVersion: 2
+        x: 1999
+        y: 0
+        width: 1001
+        height: 1000
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -146.14972, y: 146.5}
+        - {x: -146.14972, y: -146.5}
+        - {x: 147.85028, y: -146.5}
+        - {x: 147.85028, y: 146.5}
+    - name: sky_pixel clone_3
+      rect:
+        serializedVersion: 2
+        x: 3010
+        y: 0
+        width: 985
+        height: 1000
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -143.85999, y: 146.5}
+        - {x: -143.85999, y: -146.5}
+        - {x: 145.14001, y: -146.5}
+        - {x: 145.14001, y: 146.5}
+    - name: sky_pixel clone_4
+      rect:
+        serializedVersion: 2
+        x: 6002
+        y: 0
+        width: 998
+        height: 1000
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -145.98633, y: 146.5}
+        - {x: -145.98633, y: -146.5}
+        - {x: 146.01367, y: -146.5}
+        - {x: 146.01367, y: 146.5}
+    - name: sky_pixel clone_5
+      rect:
+        serializedVersion: 2
+        x: 5006
+        y: 0
+        width: 991
+        height: 1000
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -144.88745, y: 146.5}
+        - {x: -144.88745, y: -146.5}
+        - {x: 146.11255, y: -146.5}
+        - {x: 146.11255, y: 146.5}
+    - name: sky_pixel clone_6
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 0
+        width: 1001
+        height: 1000
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -146.71436, y: 146.5}
+        - {x: -146.71436, y: -146.5}
+        - {x: 147.28564, y: -146.5}
+        - {x: 147.28564, y: 146.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

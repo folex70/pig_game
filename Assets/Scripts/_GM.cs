@@ -8,8 +8,6 @@ using System.IO;
 public class _GM : MonoBehaviour {
 
     private int _currentLevel;
-    private int _currentScore;
-	private int _maxScore;
 	private int _currentGold;
 	private int _totalGold;
 
@@ -57,32 +55,13 @@ public class _GM : MonoBehaviour {
         return _currentLevel;
     }
 
-    public void SetScore(int num)
-    {
-        _currentScore = _currentScore + num;
-    }
-
-    public int GetScore()
-    {
-        return _currentScore;
-    }
-
-	public void SetHiScore(int num)
-	{
-		_maxScore = num;
-	}
-	
-	public int GetHiScore()
-	{
-		return _maxScore;
-	}
-
 	public void Save()
 	{
 		BinaryFormatter bf = new BinaryFormatter ();
 		FileStream file = File.Create (Application.persistentDataPath + "/playerInfo.dat");
 		PlayerData data = new PlayerData ();
-		data.maxScore = _maxScore;
+		//data.maxScore = _maxScore;
+		data.totalGold = _totalGold;
 
 		bf.Serialize (file, data);
 		file.Close ();
@@ -99,7 +78,8 @@ public class _GM : MonoBehaviour {
 			PlayerData data = (PlayerData)bf.Deserialize(file);
 			file.Close();
 
-			_maxScore = data.maxScore;
+			//_maxScore = data.maxScore;
+			_totalGold = data.totalGold;
 
 		}
 
@@ -110,5 +90,5 @@ public class _GM : MonoBehaviour {
 [Serializable]
 class PlayerData
 {
-	public int maxScore;
+	public int totalGold;
 }
