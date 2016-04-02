@@ -36,7 +36,7 @@ public class BgController : MonoBehaviour {
 	}
 	
 	void changeBg(){
-		Debug.Log("entrou no chageBG() "+bg);
+		//Debug.Log("entrou no chageBG() "+bg);
 		switch (bg){
 			case 1: 
 				bg0.SetActive (true);
