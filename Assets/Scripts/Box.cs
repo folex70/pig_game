@@ -3,7 +3,7 @@ using System.Collections;
 
 public class Box : MonoBehaviour {
 
-	public float  lifeTime;
+	public float  lifeTime =6f;
 	private float localLifeTime;
 
 	// Use this for initialization
@@ -16,7 +16,7 @@ public class Box : MonoBehaviour {
 		localLifeTime -= Time.deltaTime;
 		
 		if(localLifeTime < 0){
-			Destroy(this);
+			Destroy(gameObject);
 		}
 	}
 	

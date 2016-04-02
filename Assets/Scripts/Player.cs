@@ -75,7 +75,7 @@ public class Player : MonoBehaviour {
 		if(col.gameObject.tag == "magic_box"){
 			//efeito aleatorio no jogo
 			magicBoxNumber = Random.Range(0, 6);
-			Debug.Log(magicBoxNumber);
+			//Debug.Log(magicBoxNumber);
 			switch(magicBoxNumber){
 				case 1:
 					Instantiate (prefabNuvem);
@@ -93,24 +93,38 @@ public class Player : MonoBehaviour {
 				
 				case 3:
 					Instantiate (prefabSilver);
+					Example();
 					Instantiate (prefabSilver);
+					Example();
 					Instantiate (prefabSilver);
+					Example();
 					Instantiate (prefabSilver);
+					Example();
 					Instantiate (prefabSilver);
+					Example();
 					Instantiate (prefabSilver);
+					Example();
 					Instantiate (prefabSilver);
+					Example();
 					Instantiate (prefabSilver);
+					Example();
 					Instantiate (prefabSilver);
+					Example();
 					Instantiate (prefabSilver);
+					Example();
 					Instantiate (prefabSilver);
 					Debug.Log("drop 10 silver");
 				break;
 				
 				case 4:
 					Instantiate (prefabGold);
+					//yield return new  WaitForSeconds(0.1f);
 					Instantiate (prefabGold);
+					//yield return new  WaitForSeconds(0.1f);
 					Instantiate (prefabGold);
+					//yield return new  WaitForSeconds(0.1f);
 					Instantiate (prefabGold);
+					//yield return new  WaitForSeconds(0.1f);
 					Instantiate (prefabGold);
 					Debug.Log("drop 5 gold coin");
 				break;
@@ -168,4 +182,10 @@ public class Player : MonoBehaviour {
         }
         _GM.instance.SetLevel(localLevel);
 	}
+	
+	   IEnumerator Example() {
+        print(Time.time);
+        yield return new WaitForSeconds(1);
+        print(Time.time);
+    }
 }
