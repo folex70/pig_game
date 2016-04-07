@@ -28,6 +28,8 @@ public class Player : MonoBehaviour {
 	public GameObject bgChuva;
 	public float magicBoxEffectTimeleft = 10f;
 	//--------------------------
+	private Vector2 touchPos;
+	//--------------------------
 	// Use this for initialization
 	void Start () {
 		//pega o componente do inspector
@@ -41,21 +43,79 @@ public class Player : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		
-		if(Input.GetButton("Horizontal")){
-			if(Input.GetAxis("Horizontal") > 0){
-				rb.velocity = new Vector2(speed, 0);
-				flipX = false;
-			}else{
-				rb.velocity = new Vector2(speed*(-1), 0);
-				flipX = true;//!flipX;
-			}
-		}
-				
+		//if(Input.GetButton("Horizontal")){
+		//	if(Input.GetAxis("Horizontal") > 0){
+		//		rb.velocity = new Vector2(speed, 0);
+		//		flipX = false;
+		//	}else{
+		//		rb.velocity = new Vector2(speed*(-1), 0);
+		//		flipX = true;//!flipX;
+		//	}
+		//}
+		
+		//Vector3 wp = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+		//touchPos = new Vector2(wp.x, wp.y);
+		#if UNITY_EDITOR_WIN
+			inputPC();
+		#endif
+			inputMobile();	
+			
 		sprite.flipX = flipX;	
 		checkLevel();
 		//Debug.Log("Gold "+localGold);
 		//Debug.Log("Level "+localLevel);
 		_GM.instance.SetCurrentGold(localGold);
+		_GM.instance.Save();
+	}
+	
+	void inputPC(){
+		if (Input.GetMouseButtonDown(0))// verifica se mouse foi clicado
+		{		
+			Vector3 wp = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+			touchPos = new Vector2(wp.x, wp.y);
+			
+			if(touchPos.x > transform.position.x)
+			{
+				 moveDireitaTouch();
+			}
+			else
+			{
+				moveEsquerdaTouch();
+			}
+		}
+	}
+	
+	void inputMobile(){
+		if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began)
+		{		
+			Vector3 wp = Camera.main.ScreenToWorldPoint(Input.GetTouch(0).position);
+			touchPos = new Vector2(wp.x, wp.y);
+			
+			if(touchPos.x > transform.position.x)
+			{
+				 moveDireitaTouch();
+			}
+			else
+			{
+				moveEsquerdaTouch();
+			}
+		}
+		//if (Input.touchCount > 0 && Input.GetTouch (0).phase == TouchPhase.Ended) 
+		//{
+		//	
+		//}
+	}
+	
+	public void moveDireitaTouch(){
+		Debug.Log("moveDireitaTouch");
+		rb.velocity = new Vector2(speed, 0);
+		flipX = false;
+	}
+	
+	public void moveEsquerdaTouch(){
+		Debug.Log("moveEsquerdaTouch");
+		rb.velocity = new Vector2(speed*(-1), 0);
+		flipX = true;//!flipX;
 	}
 	
 	void OnCollisionEnter2D(Collision2D col){
@@ -93,38 +153,24 @@ public class Player : MonoBehaviour {
 				
 				case 3:
 					Instantiate (prefabSilver);
-					Example();
 					Instantiate (prefabSilver);
-					Example();
 					Instantiate (prefabSilver);
-					Example();
 					Instantiate (prefabSilver);
-					Example();
 					Instantiate (prefabSilver);
-					Example();
 					Instantiate (prefabSilver);
-					Example();
 					Instantiate (prefabSilver);
-					Example();
 					Instantiate (prefabSilver);
-					Example();
 					Instantiate (prefabSilver);
-					Example();
 					Instantiate (prefabSilver);
-					Example();
 					Instantiate (prefabSilver);
 					Debug.Log("drop 10 silver");
 				break;
 				
 				case 4:
 					Instantiate (prefabGold);
-					//yield return new  WaitForSeconds(0.1f);
 					Instantiate (prefabGold);
-					//yield return new  WaitForSeconds(0.1f);
 					Instantiate (prefabGold);
-					//yield return new  WaitForSeconds(0.1f);
 					Instantiate (prefabGold);
-					//yield return new  WaitForSeconds(0.1f);
 					Instantiate (prefabGold);
 					Debug.Log("drop 5 gold coin");
 				break;
@@ -182,10 +228,5 @@ public class Player : MonoBehaviour {
         }
         _GM.instance.SetLevel(localLevel);
 	}
-	
-	   IEnumerator Example() {
-        print(Time.time);
-        yield return new WaitForSeconds(1);
-        print(Time.time);
-    }
+
 }

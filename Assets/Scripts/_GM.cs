@@ -62,6 +62,7 @@ public class _GM : MonoBehaviour {
 		PlayerData data = new PlayerData ();
 		//data.maxScore = _maxScore;
 		data.totalGold = _totalGold;
+		data.Gold = _currentGold;
 
 		bf.Serialize (file, data);
 		file.Close ();
@@ -80,6 +81,7 @@ public class _GM : MonoBehaviour {
 
 			//_maxScore = data.maxScore;
 			_totalGold = data.totalGold;
+			_currentGold = data.Gold;
 
 		}
 
@@ -91,4 +93,5 @@ public class _GM : MonoBehaviour {
 class PlayerData
 {
 	public int totalGold;
+	public int Gold;
 }
