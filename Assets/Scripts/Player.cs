@@ -149,6 +149,14 @@ public class Player : MonoBehaviour {
 						bgChuva.SetActive(false);
 					}
 					Debug.Log("chuva");
+					//---------
+					Instantiate (prefabThunder);
+					Instantiate (prefabThunder1);
+					Instantiate (prefabThunder2);
+					Instantiate (prefabThunder3);
+					Instantiate (prefabThunder4);
+					Instantiate (prefabThunder5);
+					Instantiate (prefabThunder6);
 				break;
 				
 				case 3:
@@ -221,7 +229,7 @@ public class Player : MonoBehaviour {
         {
             localLevel++;
         }
-        else if ((localLevel >= 10) && localGold > (20 * localLevel))
+        else if ((localLevel >= 10) && localGold > (15 * localLevel))
         {
             localLevel++;
 			Instantiate (prefabNuvem);

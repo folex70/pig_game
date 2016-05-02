@@ -14,6 +14,8 @@ public class Nuvem : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+		timeDropThunder    = Random.Range(1f,3f);
+		timeDropSilverCoin = Random.Range(1f,3f);
 		InvokeRepeating ("DropThunder",timeDropThunder, timeDropThunder);
 		InvokeRepeating ("DropSilverCoin",timeDropSilverCoin, timeDropSilverCoin);
 		InvokeRepeating ("DropGoldenCoin",timeDropGoldenCoin, timeDropGoldenCoin);
@@ -95,6 +97,7 @@ public class Nuvem : MonoBehaviour {
 			InvokeRepeating ("DropThunder",timeDropThunder, timeDropThunder);
 			InvokeRepeating ("DropSilverCoin",timeDropSilverCoin, timeDropSilverCoin);
 			InvokeRepeating ("DropGoldenCoin",timeDropGoldenCoin, timeDropGoldenCoin);
+			//DropMagicBox();
 			localCountLevel = currentLevel;
 		}
 	}

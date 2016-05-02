@@ -89,6 +89,7 @@
      <Compile Include="Assets\Scripts\ObjectPoolSilver.cs" />
      <Compile Include="Assets\Scripts\Player.cs" />
      <Compile Include="Assets\Scripts\Raio.cs" />
+     <Compile Include="Assets\Scripts\Tap.cs" />
      <Compile Include="Assets\Scripts\UIManager.cs" />
      <Compile Include="Assets\Scripts\_GM.cs" />
      <None Include="Assets\Fonts\OFL.txt" />
